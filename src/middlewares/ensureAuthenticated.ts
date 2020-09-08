@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from 'express';
-import { id } from 'date-fns/locale';
 import { verify } from 'jsonwebtoken';
 import authConfig from '../config/auth';
 

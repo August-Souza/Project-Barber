@@ -4,7 +4,7 @@ import CreateSession from '../services/CreateSession';
 
 const sessionsRouter = Router();
 
-sessionsRouter.post('/sessions', async (request, response) => {
+sessionsRouter.post('/', async (request, response) => {
   try {
     const { email, password } = request.body;
 
